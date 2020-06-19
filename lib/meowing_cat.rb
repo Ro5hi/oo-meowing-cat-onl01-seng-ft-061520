@@ -1,9 +1,8 @@
 class Cat
  
-  class Person
   attr_writer :name
   attr_reader :name
- 
+end
   end
 
 class Cat 
