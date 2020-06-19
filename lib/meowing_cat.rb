@@ -1,12 +1,9 @@
 class Cat
  
-  def name=(maru_cat)
-    @this_cats_name = cats_name
-  end
+  class Person
+  attr_writer :name
+  attr_reader :name
  
-  def name
-    @this_cats_name
-end
   end
 
 class Cat 
